@@ -1,6 +1,9 @@
 module.exports = {
   root: true,
   env: { browser: true, node: true },
+  globals: {
+    uni: 'readonly'
+  },
   extends: [
     'eslint:recommended',
     'plugin:vue/recommended',
